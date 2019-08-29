@@ -69,6 +69,6 @@ Certa vez o engenheiro Isaque Nilton dos Santos Montanhoso precisou encontrar um
 * A função de teste eleva o chute ao quadrado, subtrai com o valor presente dentro da raiz e caso o valor absoluto seja menor que uma tolerância, retorne como verdadeiro;
 * A função que melhora o chute é dada pela fórmula chuteNovo = media(chuteAnterior + chuteanterior/radicando).
 
-Só tem um porém, Isaque não queria programar e pediu para o esquadrão computacional dele fazer. Correm boatos que Isaque também quer uma função que faça a raiz cúbica, mas isso apenas se o funcionário conseguiu fazer a função quadrada.
+Só tem um porém, Isaque não queria programar e pediu para o esquadrão computacional dele fazer. Considere tolerância como 0,001. Correm boatos que Isaque também quer uma função que faça a raiz cúbica, mas isso apenas se o funcionário conseguiu fazer a função quadrada.
 
 Spoiler: É uma média do chute e de ((radicando/chuteAnterior^2) + (2 * chute))/3!
