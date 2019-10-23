@@ -51,7 +51,7 @@ thList :: Dur -> [Pitch] -> [Int] -> Music Pitch
 thList d [] [] = rest 0
 thList d (p:ps) (t:ts) = thNote d p t :+: thList d ps ts
 
--- 
+-- Bourré first bars kek
 pBach = [(G, 3), (Fs, 3), (B, 3)]
 tBach = [9, 12, 8]
 mel4 = thList qn pBach tBach
