@@ -2,15 +2,15 @@ import Euterpea
 
 {- Types:
  - PitchClass, Octave, hn, wn, qn, en(eight note), sn(sixteenth note) 
--}
 
--- Operators => (:+:) | (:=:) | rest
---	            trans | note
--- note :: Dur -> Pitch -> Music Pitch
--- rest :: Dur -> Music Pitch
--- :+: :: Music Pitch -> Music Pitch -> Music Pitch
--- :=: :: Music Pitch -> Music Pitch -> Music Pitch
--- trans :: Int -> Pitch -> Pitch
+   Operators => (:+:) | (:=:) | rest
+                trans | note
+   note :: Dur -> Pitch -> Music Pitch
+   rest :: Dur -> Music Pitch
+   :+: :: Music Pitch -> Music Pitch -> Music Pitch
+   :=: :: Music Pitch -> Music Pitch -> Music Pitch
+   trans :: Int -> Pitch -> Pitch
+-}
 
 -- Constants
 p1 = (Ef, 4)
@@ -20,8 +20,8 @@ p3 = (G, 4)
 
 -- simple melody problematic
 mel = (note qn p1 :=: note qn (trans (-3) p1)) :+:
-	  (note qn p2 :=: note qn (trans (-3) p2)) :+:
-	  (note qn p3 :=: note qn (trans (-3) p3))
+      (note qn p2 :=: note qn (trans (-3) p2)) :+:
+      (note qn p3 :=: note qn (trans (-3) p3))
 
 -- Harmonize function
 hNote :: Dur -> Pitch -> Music Pitch
