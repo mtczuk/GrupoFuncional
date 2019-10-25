@@ -64,7 +64,7 @@ A mesma melodia novamente programada
 
 >mel3 = hList qn [p1, p2, p3]
 
-Para tocar todos os exemplos deste código, basta digitar 'play' seguido da melodia do tipo música
+Para tocar todos os exemplos deste código, basta executar a função play seguido da melodia do tipo música
 previamente selecionado. Ex:
 play melody
 Toca a função melody!
