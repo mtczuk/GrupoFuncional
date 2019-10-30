@@ -7,12 +7,19 @@ Os tipos utilizados nesse código são respectivamente:
 PitchClass, Octave, hn, wn, qn, en(eight note), sn(sixteenth note) 
 
 E as funções utilizadas são:
+
 (:+:) | (:=:) | rest
+
 trans | note
+
 note :: Dur -> Pitch -> Music Pitch
+
 rest :: Dur -> Music Pitch
+
 :+: :: Music Pitch -> Music Pitch -> Music Pitch
+
 :=: :: Music Pitch -> Music Pitch -> Music Pitch
+
 trans :: Int -> Pitch -> Pitch
 
 A seguir definimos os valores utilizados, respectivamente uma tupla do tom analizado seguido de
